@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 mr-3 text-primary" />
-                (11) 3456-7890
+                (38) 3212-2616
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 mr-3 text-primary" />
@@ -53,7 +53,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mr-3 text-primary" />
-                Rua da Educação, 123 - Centro
+                Avenida Dr. José Correa Machado, 700, Montes Claros - MG
               </div>
             </div>
           </div>

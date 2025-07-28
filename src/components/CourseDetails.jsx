@@ -285,11 +285,11 @@ const CourseDetails = () => {
                 <div className="space-y-3 pt-4 border-t">
                   <div className="flex items-center text-sm">
                     <Phone className="w-4 h-4 text-primary mr-3" />
-                    <span className="text-muted-foreground">(11) 3456-7890</span>
+                    <span className="text-muted-foreground">(38) 3212-2616</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Mail className="w-4 h-4 text-primary mr-3" />
-                    <span className="text-muted-foreground">cursos@colegiotradito.edu.br</span>
+                    <span className="text-muted-foreground">cursos@colegiopadrao.edu.br</span>
                   </div>
                 </div>
               </CardContent>

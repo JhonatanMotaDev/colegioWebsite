@@ -114,7 +114,7 @@ const Enrollment = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 mr-3 text-primary" />
-                  <span className="text-foreground">(11) 3456-7890</span>
+                  <span className="text-foreground">(38) 3212-2616</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-primary" />
@@ -122,7 +122,7 @@ const Enrollment = () => {
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 mr-3 text-primary" />
-                  <span className="text-foreground">Rua da Educação, 123 - Centro</span>
+                  <span className="text-foreground">Avenida Dr. José Correa Machado, 700, Montes Claros - MG</span>
                 </div>
               </CardContent>
             </Card>
