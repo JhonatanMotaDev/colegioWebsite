@@ -29,7 +29,6 @@ const About = () => {
     <section id="institucional" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Content */}
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">
               Sobre o Colégio Padrão
@@ -54,7 +53,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Mission, Vision, Values */}
             <div className="mt-12 space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Nossa Missão</h3>
@@ -74,9 +72,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Visual/Stats */}
           <div className="space-y-8">
-            {/* Image placeholder */}
             <div className="aspect-video bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl flex items-center justify-center border">
               <div className="text-center">
                 <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -88,7 +84,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Achievement stats */}
             <div className="grid grid-cols-2 gap-4">
               <Card className="text-center p-6 border-0 bg-primary/5">
                 <CardContent className="p-0">
@@ -107,7 +102,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Values Section */}
         <div className="mt-20">
           <div className="text-center mb-12">
             <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
@@ -145,4 +139,3 @@ const About = () => {
 }
 
 export default About
-

@@ -140,7 +140,6 @@ const CourseDetails = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <div className="bg-gradient-to-r from-primary/10 to-secondary/10 py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Link to="/" className="inline-flex items-center text-primary hover:text-primary/80 mb-6">
@@ -165,9 +164,8 @@ const CourseDetails = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid lg:grid-cols-3 gap-12">
-          {/* Main Content */}
           <div className="lg:col-span-2 space-y-12">
-            {/* Description */}
+
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">Sobre o Curso</h2>
               <p className="text-muted-foreground text-lg leading-relaxed">
@@ -175,7 +173,6 @@ const CourseDetails = () => {
               </p>
             </section>
 
-            {/* Objectives */}
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-6">Objetivos Pedagógicos</h2>
               <div className="grid gap-4">
@@ -188,7 +185,6 @@ const CourseDetails = () => {
               </div>
             </section>
 
-            {/* Methodology */}
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">Metodologia</h2>
               <p className="text-muted-foreground leading-relaxed">
@@ -196,7 +192,6 @@ const CourseDetails = () => {
               </p>
             </section>
 
-            {/* Facilities */}
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-6">Infraestrutura</h2>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -209,7 +204,6 @@ const CourseDetails = () => {
               </div>
             </section>
 
-            {/* Activities */}
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-6">Atividades</h2>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -223,9 +217,8 @@ const CourseDetails = () => {
             </section>
           </div>
 
-          {/* Sidebar */}
           <div className="space-y-6">
-            {/* Quick Info */}
+
             <Card>
               <CardHeader>
                 <CardTitle>Informações Rápidas</CardTitle>
@@ -268,7 +261,6 @@ const CourseDetails = () => {
               </CardContent>
             </Card>
 
-            {/* Contact */}
             <Card>
               <CardHeader>
                 <CardTitle>Interessado?</CardTitle>
@@ -295,7 +287,6 @@ const CourseDetails = () => {
               </CardContent>
             </Card>
 
-            {/* Other Courses */}
             <Card>
               <CardHeader>
                 <CardTitle>Outros Cursos</CardTitle>
@@ -321,4 +312,3 @@ const CourseDetails = () => {
 }
 
 export default CourseDetails
-

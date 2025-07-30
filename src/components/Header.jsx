@@ -7,7 +7,6 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
-    // Verificar preferência salva ou do sistema
     const savedTheme = localStorage.getItem('theme')
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
     
@@ -42,12 +41,11 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
+
           <div className="flex items-center space-x-2">
           <img className="h-10 w-auto" src="/logo.png" alt="Logo" />
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
@@ -60,9 +58,7 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Right side buttons */}
           <div className="flex items-center space-x-4">
-            {/* Theme toggle */}
             <Button
               variant="ghost"
               size="icon"
@@ -77,7 +73,6 @@ const Header = () => {
               <span className="sr-only">Alternar tema</span>
             </Button>
 
-            {/* CTA Button */}
             <Button className="hidden sm:inline-flex">
               Matrículas Abertas
             </Button>
@@ -88,8 +83,6 @@ const Header = () => {
             <img src="/usa.png" alt="Inglês (US)" className="w-5 h-5 cursor-pointer" />
             </div>  
 
-
-            {/* Mobile menu button */}
             <Button
               variant="ghost"
               size="icon"
@@ -106,7 +99,6 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 border-t">
@@ -134,4 +126,3 @@ const Header = () => {
 }
 
 export default Header
-

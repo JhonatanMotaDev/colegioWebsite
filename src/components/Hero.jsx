@@ -6,7 +6,6 @@ const Hero = () => {
 <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-accent/10 pt-24 sm:pt-0">
 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Educação de{' '}
@@ -32,7 +31,6 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-border">
               <div className="text-center lg:text-left">
                 <div className="text-2xl sm:text-3xl font-bold text-primary">45+</div>
@@ -49,7 +47,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Image/Visual */}
           <div className="relative">
             <div className="relative z-10 bg-card rounded-2xl p-8 shadow-xl border">
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/20 rounded-xl flex items-center justify-center">
@@ -67,7 +64,6 @@ const Hero = () => {
               </div>
             </div>
             
-            {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-secondary/20 rounded-full blur-xl"></div>
             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary/20 rounded-full blur-xl"></div>
           </div>

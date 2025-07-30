@@ -38,7 +38,6 @@ const Enrollment = () => {
   return (
     <section id="matriculas" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
             Matrículas 2025
@@ -50,9 +49,7 @@ const Enrollment = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
-          {/* Left Column - Process & Info */}
           <div className="space-y-8">
-            {/* Process Steps */}
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">
                 Como fazer sua matrícula
@@ -80,7 +77,6 @@ const Enrollment = () => {
               </div>
             </div>
 
-            {/* Documents */}
             <Card className="border-0 bg-muted/50">
               <CardHeader>
                 <CardTitle className="flex items-center">
@@ -103,7 +99,6 @@ const Enrollment = () => {
               </CardContent>
             </Card>
 
-            {/* Contact Info */}
             <Card className="border-0 bg-card/50">
               <CardHeader>
                 <CardTitle>Informações de Contato</CardTitle>
@@ -128,7 +123,6 @@ const Enrollment = () => {
             </Card>
           </div>
 
-          {/* Right Column - Contact Form */}
           <div>
             <Card className="border-0 bg-card/50 backdrop-blur">
               <CardHeader>
@@ -197,7 +191,6 @@ const Enrollment = () => {
           </div>
         </div>
 
-        {/* CTA Banner */}
         <div className="mt-16 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 text-center border">
           <h3 className="text-2xl font-bold text-foreground mb-4">
             Matrículas Abertas para 2025!
@@ -220,4 +213,3 @@ const Enrollment = () => {
 }
 
 export default Enrollment
-

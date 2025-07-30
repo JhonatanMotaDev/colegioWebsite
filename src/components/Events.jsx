@@ -152,7 +152,6 @@ const Events = () => {
   return (
     <section id="eventos" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
             Próximos Eventos
@@ -163,7 +162,6 @@ const Events = () => {
           </p>
         </div>
 
-        {/* Events Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {events.map((event) => (
             <Card 
@@ -218,7 +216,6 @@ const Events = () => {
           ))}
         </div>
 
-        {/* Calendar CTA */}
         <div className="text-center bg-card rounded-2xl p-8 border">
           <h3 className="text-2xl font-bold text-foreground mb-4">
             Calendário Completo
@@ -241,4 +238,3 @@ const Events = () => {
 }
 
 export default Events
-

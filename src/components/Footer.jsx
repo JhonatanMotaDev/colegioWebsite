@@ -28,9 +28,7 @@ const Footer = () => {
   return (
     <footer className="bg-card border-t">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Footer Content */}
         <div className="py-12 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand & Contact */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <GraduationCap className="h-8 w-8 text-primary" />
@@ -58,7 +56,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
@@ -75,7 +72,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Courses */}
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Nossos Cursos</h3>
             <ul className="space-y-2">
@@ -92,7 +88,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Recursos</h3>
             <ul className="space-y-2 mb-6">
@@ -108,7 +103,6 @@ const Footer = () => {
               ))}
             </ul>
 
-            {/* Social Media */}
             <div>
               <h4 className="text-sm font-semibold text-foreground mb-3">Siga-nos</h4>
               <div className="flex space-x-3">
@@ -135,7 +129,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Footer */}
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
@@ -161,4 +154,3 @@ const Footer = () => {
 }
 
 export default Footer
-
